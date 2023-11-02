@@ -1,0 +1,218 @@
+
+
+
+
+/* header {
+    position: relative; 
+    overflow: hidden;
+    
+} */
+
+header{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/52a74d9ae4b0253945d2aee9/1391287286405-92Z4A4R3T2ZSZAKNVS9V/image-asset.jpeg?format=2500w); 
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: -8px;
+    
+    /* z-index: -1; */
+   
+}
+
+/* header.background{
+    filter: brightness(75%);
+
+} */
+
+
+.nav{
+    background: transparent;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.NavText{
+    color: white;
+    padding-top: 2px;
+    padding-right: 22px;
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.action{
+    background-color: transparent;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+a{
+    text-decoration: none;
+   
+}
+
+.bedford-img{
+    height: 60px;
+    width: 130px;
+}
+
+.mid{
+    position: absolute;
+    text-align: center;
+    top: 32%;
+    left: 29%;
+    color: white;
+    
+    
+}
+
+#LearnMore{
+    background-color: rgb(54, 198, 191);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /* border: 2px solid white; */
+    border-radius: 50px;
+}
+
+.mid strong{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 67px;
+    margin: 2px 0;
+    
+}
+.mid em{
+    font-size: 25px;
+}
+
+.MainSection section{
+    height: 770px;
+    margin: 100px 100px;
+    /* padding-left: ; */
+    
+}
+
+.bodyContent{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    
+}
+.bodyContent h1{
+    font-size: 33px;
+    font-weight: bold;
+    /* font-style: normal; */
+    color: rgba(26,26,26,.9);
+    
+}
+
+.bodyContent p{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(26,26,26,.9);
+    
+
+    /* display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+}
+.bodyContent em{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(26,26,26,.9);
+}
+.bodyContent em span{
+    color: rgb(4, 100, 86);
+    
+
+}
+
+.bodyImage{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.bodyImg{
+    width: 35vw;
+    text-align: center;
+}
+
+.bodyImg img{
+    height: 300px;
+    width: 600px;
+}
+
+.bodyAbout{
+    text-align: center;
+    width: 35vw;
+ }
+.bodyAbout h3{
+    color: rgb(4, 100, 86);
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    
+}
+.bodyAbout p{
+    
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(26,26,26,.9);
+    font-family: 'Cormorant Garamond', serif;
+}
+.bodyBtn{
+    
+    color: rgb(4, 100, 86);
+    font-weight: normal;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+    /* padding: 12px 25px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /* border: 2px solid white; */
+    /* border-radius: 50px; */
+}
+footer{
+    height: 300px;
+    margin-left: -8px;
+    margin-bottom: -8px;
+    margin-right: -10px;
+
+}
+
+footer .upper-part{
+    height: 33%;
+    background-color: rgb(68, 68, 68);
+    
+}
+
+footer .lower-part{
+    height: 67%;
+    background-color: black;
+}
+/* .icon{
+    background: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+} */
+
