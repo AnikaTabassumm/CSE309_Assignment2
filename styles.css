@@ -110,12 +110,12 @@ a{
 
 .bodyContent{
     text-align: center;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 .bodyContent h1{
     font-size: 33px;
-    font-weight: bold;
+    font-weight: normal;
     /* font-style: normal; */
     color: rgba(26,26,26,.9);
     
@@ -140,7 +140,7 @@ a{
     color: rgba(26,26,26,.9);
 }
 .bodyContent em span{
-    color: rgb(4, 100, 86);
+    color: rgb(1, 133, 114);
     
 
 }
@@ -164,9 +164,10 @@ a{
 .bodyAbout{
     text-align: center;
     width: 35vw;
+    padding-left: 20px;
  }
 .bodyAbout h3{
-    color: rgb(4, 100, 86);
+    color: rgb(1, 133, 114);
     font-family: 'Montserrat', sans-serif;
     font-size: medium;
     
@@ -176,11 +177,11 @@ a{
     font-size: 18px;
     font-weight: 500;
     color: rgba(26,26,26,.9);
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 .bodyBtn{
     
-    color: rgb(4, 100, 86);
+    color: rgb(1, 133, 114);
     font-weight: normal;
     font-size: small;
     font-family: 'Montserrat', sans-serif;
@@ -192,27 +193,51 @@ a{
     /* border-radius: 50px; */
 }
 footer{
-    height: 300px;
+    /* height: 300px; */
     margin-left: -8px;
     margin-bottom: -8px;
     margin-right: -10px;
+    text-align: center;
 
 }
 
 footer .upper-part{
-    height: 33%;
+    height: auto;
     background-color: rgb(68, 68, 68);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
     
 }
 
 footer .lower-part{
-    height: 67%;
+    height: auto;
     background-color: black;
+    margin-top: 0;
+    padding-top: 55px;
+    padding-bottom: 55px;
 }
-/* .icon{
+.upper-part a{
     background: white;
     color: black;
     border-radius: 20px;
-    padding: 10px;
-} */
+    padding: 8px;
+    
+    
+}
+
+.lower-part p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    /* text-align: center; */
+
+}
+.u{
+    color: gray;
+}
+.power{
+    color: gray;
+}
 
