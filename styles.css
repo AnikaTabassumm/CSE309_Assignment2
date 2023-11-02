@@ -1,13 +1,5 @@
 
 
-
-
-/* header {
-    position: relative; 
-    overflow: hidden;
-    
-} */
-
 header{
     background-image: url(https://images.squarespace-cdn.com/content/v1/52a74d9ae4b0253945d2aee9/1391287286405-92Z4A4R3T2ZSZAKNVS9V/image-asset.jpeg?format=2500w); 
     height: 650px;
@@ -15,15 +7,8 @@ header{
     background-repeat: no-repeat;
     background-size: cover; 
     margin: -8px;
-    
-    /* z-index: -1; */
-   
+     
 }
-
-/* header.background{
-    filter: brightness(75%);
-
-} */
 
 
 .nav{
@@ -87,7 +72,6 @@ a{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    /* border: 2px solid white; */
     border-radius: 50px;
 }
 
@@ -104,7 +88,6 @@ a{
 .MainSection section{
     height: 770px;
     margin: 100px 100px;
-    /* padding-left: ; */
     
 }
 
@@ -116,7 +99,6 @@ a{
 .bodyContent h1{
     font-size: 33px;
     font-weight: normal;
-    /* font-style: normal; */
     color: rgba(26,26,26,.9);
     
 }
@@ -127,13 +109,8 @@ a{
     font-weight: 500;
     color: rgba(26,26,26,.9);
     
-
-    /* display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px; */
 }
+
 .bodyContent em{
     font-size: 18px;
     font-weight: 500;
@@ -185,15 +162,12 @@ a{
     font-weight: normal;
     font-size: small;
     font-family: 'Montserrat', sans-serif;
-    /* padding: 12px 25px; */
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    /* border: 2px solid white; */
-    /* border-radius: 50px; */
 }
+
 footer{
-    /* height: 300px; */
     margin-left: -8px;
     margin-bottom: -8px;
     margin-right: -10px;
@@ -207,7 +181,6 @@ footer .upper-part{
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    
     
 }
 
@@ -231,8 +204,7 @@ footer .lower-part{
     color: white;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    /* text-align: center; */
-
+   
 }
 .u{
     color: gray;
